@@ -49,7 +49,7 @@ Licence URI: https://www.os-templates.com/template-terms
         $nom=htmlspecialchars(addslashes($_POST['nom']));
         $prenom=htmlspecialchars(addslashes($_POST['prenom']));
         $mail=htmlspecialchars(addslashes($_POST['mail']));
-        $mysqli = new mysqli('localhost','zamilab00','rj5qlcwn','zfl2-zamilab00');
+        $mysqli = new mysqli('localhost','zamilab00','XXXXXX','zfl2-zamilab00');
         if ($mysqli->connect_errno)
         {
             // Affichage d'un message d'erreur
