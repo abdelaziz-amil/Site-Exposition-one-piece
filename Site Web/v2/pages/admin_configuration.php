@@ -60,7 +60,7 @@ Licence URI: https://www.os-templates.com/template-terms
 </br>
     <?php
 
-    $mysqli = new mysqli('localhost','zamilab00','rj5qlcwn','zfl2-zamilab00');
+    $mysqli = new mysqli('localhost','zamilab00','XXXXX','zfl2-zamilab00');
     if ($mysqli->connect_errno){
         // Affichage d'un message d'erreur
         echo "Error: Problème de connexion à la BDD \n";
