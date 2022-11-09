@@ -6,7 +6,7 @@
     header("Location:session.php");
   }
 
-$mysqli = new mysqli('localhost','zamilab00','rj5qlcwn','zfl2-zamilab00');
+$mysqli = new mysqli('localhost','zamilab00','XXXXX','zfl2-zamilab00');
 if(isset($_GET['id'])){
 
   $id=$_GET['id'];
