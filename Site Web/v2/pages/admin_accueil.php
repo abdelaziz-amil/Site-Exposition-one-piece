@@ -63,7 +63,7 @@ Licence URI: https://www.os-templates.com/template-terms
     <center><div style ="background-color : #212121;"><h1 style = "color : white;">ESPACE ADMINISTRATION</h1></div><center>
     <div> 
       <?php
-        $mysqli = new mysqli('localhost','zamilab00','rj5qlcwn','zfl2-zamilab00');
+        $mysqli = new mysqli('localhost','zamilab00','XXXXX','zfl2-zamilab00');
         $id = $_SESSION['login'];
         $sql="SELECT * FROM T_COMPTE_COM JOIN T_PROFIL_PFL USING (COM_PSEUDO)";//recuperation de tout les profils pour les afficher dans un tableau
         $result = $mysqli -> query($sql);
