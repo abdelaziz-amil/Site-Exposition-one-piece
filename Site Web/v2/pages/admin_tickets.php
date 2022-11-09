@@ -56,7 +56,7 @@ Licence URI: https://www.os-templates.com/template-terms
     <center><div style ="background-color : #212121;"><h1 style = "color : white;">ESPACE ADMINISTRATION</h1></div><center>
     <div> 
       <?php
-        $mysqli = new mysqli('localhost','zamilab00','rj5qlcwn','zfl2-zamilab00');
+        $mysqli = new mysqli('localhost','zamilab00','XXXXX','zfl2-zamilab00');
         $id = $_SESSION['login'];
         $sql="SELECT * FROM T_VISITEUR_VIS LEFT OUTER JOIN T_COMMENTAIRE_CMT USING (VIS_NUMERO);";//récuperation de tout les visiteurs et de leurs commentaires si ils en ont mis 1 
         $result = $mysqli -> query($sql);
