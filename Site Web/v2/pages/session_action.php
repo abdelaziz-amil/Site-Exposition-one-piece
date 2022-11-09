@@ -5,7 +5,7 @@ if ($_POST["pseudo"] && $_POST["mdp"]){
     $id=htmlspecialchars($_POST["pseudo"]);
     $motdepasse=htmlsPEcialchars($_POST["mdp"]);
     // Connexion à la base MariaDB
-    $mysqli = new mysqli('localhost','zamilab00','rj5qlcwn','zfl2-zamilab00');
+    $mysqli = new mysqli('localhost','zamilab00','XXXXX','zfl2-zamilab00');
     if ($mysqli->connect_errno) {
         // Affichage d'un message d'erreur
         echo "Error: Problème de connexion à la BDD \n";
